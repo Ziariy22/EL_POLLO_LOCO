@@ -365,6 +365,11 @@ input:checked + .slider:before {
         width: 75px;
     }
 
+    #restartGame {
+        height: 35px;
+        width: 75px;
+    }
+
     #settingsButton img{
         width: 28px;
         height: 28px;
@@ -462,6 +467,11 @@ input:checked + .slider:before {
         width: 45px;
     }
 
+    #restartGame {
+        height: 30px;
+        width: 45px;
+    }
+
     #settingsButton img{
         width: 24px;
         height: 24px;
@@ -534,6 +544,11 @@ input:checked + .slider:before {
     }
 
     #controlButton{
+        height: 35px;
+        width: 75px;
+    }
+
+    #restartGame {
         height: 35px;
         width: 75px;
     }

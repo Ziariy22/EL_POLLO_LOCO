@@ -42,6 +42,10 @@ function settings(){
    showElementAnimated('settingsMenu');
 }
 
+function GoBackToStartScreen() {
+  document.location.reload();
+}
+
 
 /**
  * control button by startscreen
