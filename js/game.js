@@ -12,7 +12,7 @@ function init() {
 
 
 /**
- * 
+ * Starting the game after clicking the start-button
  */
 function startGame() {
   initLevel();
@@ -26,7 +26,7 @@ function startGame() {
 
 
 /**
- * menu buttons by startscreen
+ * menu buttons within the game
  */
 function addMenuButtons(){
   hideElement('startContainer');
@@ -42,6 +42,10 @@ function settings(){
    showElementAnimated('settingsMenu');
 }
 
+
+/**
+ * Within the game you can restart the game whenever you want
+ */
 function GoBackToStartScreen() {
   document.location.reload();
 }
@@ -69,6 +73,8 @@ function doNotClose(event){
    event.stopPropagation();
 }
 
+
+/* Functions for hiding the elements by clicking the start-button*/
 
 /**
  * @param {string} id - ID of an HTML Element 

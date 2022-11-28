@@ -118,7 +118,7 @@ class Character extends MovableObject {
 
     /**
      * character can walk right if the key is pressed and determines how far the character can walk on the right side
-     * @returns boolean
+     * @returns boolean - if keyboad right is true
      */
     canMoveRight() {
         return this.world.keyboard.RIGHT &&
@@ -140,7 +140,7 @@ class Character extends MovableObject {
 
     /**
      * character can walk left if the key is pressed and determines how far the character can walk on the left side
-     * @returns boolean
+     * @returns boolean - if keyboad left is true
      */
     canMoveLeft() {
         return this.world.keyboard.LEFT &&
@@ -162,7 +162,7 @@ class Character extends MovableObject {
 
     /**
      * determines if the key is pressed
-     * @returns boolean
+     * @returns boolean - if keyboad space is true
      */
     canJump() {
         return this.world.keyboard.SPACE &&
@@ -198,7 +198,7 @@ class Character extends MovableObject {
 
     /**
      * determines if the right or left button is pressed
-     * @returns boolean
+     * @returns boolean - if keyboard right and left is true
      */
     walkKeypressEvent() {
         return this.world.keyboard.RIGHT || this.world.keyboard.LEFT;

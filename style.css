@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'zabras';
-    src: url('fonts/zabars.ttf') format('truetype'); 
-}  
+    src: url('fonts/zabars.ttf') format('truetype');
+}
 
 body {
     height: 100vh;
@@ -24,16 +24,16 @@ body::after {
     bottom: 0;
     right: 0;
     position: absolute;
-    z-index: -1;   
+    z-index: -1;
 }
 
-p{
+p {
     font-size: 20px;
     margin-top: 16px;
     margin-bottom: 16px;
 }
 
-span{
+span {
     position: absolute;
     bottom: 16px;
     right: 16px;
@@ -41,16 +41,16 @@ span{
     z-index: 0;
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     color: #9900ff;
 }
 
-h1{
+h1 {
     font-size: 42px;
     letter-spacing: 2px;
     margin-bottom: 64px;
@@ -60,23 +60,23 @@ h1{
     display: none;
 }
 
-.vis-hidden{
+.vis-hidden {
     opacity: 0;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.alignCenter{
+.alignCenter {
     align-items: center;
 }
 
-.spaceBetween{
+.spaceBetween {
     justify-content: space-between;
 }
 
-.container{
+.container {
     width: 720px;
     height: 480px;
     box-shadow: 0px 0px 8px 0px black;
@@ -86,12 +86,12 @@ h1{
     z-index: 1;
 }
 
-canvas{
+canvas {
     display: block;
     border-radius: 10px;
 }
 
-button{
+button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,12 +105,12 @@ button{
     transition: all .2s ease-in-out;
 }
 
-button:hover{
+button:hover {
     background-color: #FFDC04;
     transform: scale(1.1);
 }
 
-.buttonOnTouch{
+.buttonOnTouch {
     background-color: #FFDC04;
 }
 
@@ -122,12 +122,12 @@ button:hover{
     border-radius: 10px;
 }
 
-#startContainer img{
+#startContainer img {
     width: 100%;
     height: 100%;
 }
 
-#startButton{
+#startButton {
     height: 40px;
     width: 110px;
     font-size: 18px;
@@ -143,7 +143,7 @@ button:hover{
     transform: scale(1.1);
 }
 
-.startButtonLine{
+.startButtonLine {
     position: absolute;
     top: 12px;
     width: 100%;
@@ -154,7 +154,7 @@ button:hover{
 }
 
 
-.menuButtonLine{
+.menuButtonLine {
     position: absolute;
     bottom: 0px;
     width: calc(100% - 64px);
@@ -166,23 +166,23 @@ button:hover{
     padding-right: 32px;
 }
 
-.menuButton{
+.menuButton {
     height: 40px;
     width: 75px;
     font-size: 20px;
     margin: 8px;
 }
 
-.fullscreen{
+.fullscreen {
     border-radius: unset;
 }
 
-.canvasFullscreen{
+.canvasFullscreen {
     height: 100%;
     width: 100%;
 }
 
-.hud{
+.hud {
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -191,19 +191,19 @@ button:hover{
     align-items: center;
 }
 
-#hud button{
+#hud button {
     margin: 16px;
     border-radius: 100px;
     width: 45px;
     height: 45px;
 }
 
-.throw{
+.throw {
     transform: rotate(40deg);
 }
 
 
-.gameMenuButtonLine{
+.gameMenuButtonLine {
     position: absolute;
     top: 0;
     padding: unset;
@@ -213,13 +213,13 @@ button:hover{
     align-items: flex-end;
 }
 
-#closeButton{
+#closeButton {
     height: 30px;
     width: 80px;
     font-size: 14px;
 }
 
-.background{
+.background {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -231,7 +231,7 @@ button:hover{
     transition: all .4s ease-in-out;
 }
 
-.menu{
+.menu {
     display: block;
     background-image: radial-gradient(yellow, rgb(255, 230, 0), orange);
     padding: 16px;
@@ -240,31 +240,31 @@ button:hover{
     transition: all .4s ease-in-out;
 }
 
-.menu p{
+.menu p {
     font-size: 16px;
 }
 
-#settings{
+#settings {
     height: auto;
     width: 250px;
 }
 
-#control{
+#control {
     height: auto;
     width: 250px;
 }
 
-.controlImage{
+.controlImage {
     width: 24px;
     height: 24px;
 }
 
-.controlImageTouch{
+.controlImageTouch {
     width: 24px;
     height: 24px;
 }
 
-.closeMenu{
+.closeMenu {
     width: 100%;
     display: flex;
     align-items: center;
@@ -278,7 +278,7 @@ button:hover{
     width: 40px;
     height: 20px;
     z-index: 100;
-  }
+}
 
 .switch input {
     opacity: 0;
@@ -296,7 +296,7 @@ button:hover{
     -webkit-transition: .4s;
     transition: .4s;
 }
-  
+
 .slider:before {
     position: absolute;
     content: "";
@@ -308,43 +308,43 @@ button:hover{
     -webkit-transition: .4s;
     transition: .4s;
 }
-  
-input:checked + .slider {
+
+input:checked+.slider {
     background-color: #2196F3;
 }
-  
-input:focus + .slider {
+
+input:focus+.slider {
     box-shadow: 0 0 1px #2196F3;
 }
-  
-input:checked + .slider:before {
+
+input:checked+.slider:before {
     -webkit-transform: translateX(16px);
     -ms-transform: translateX(16px);
     transform: translateX(16px);
 }
-  
+
 .slider.round {
     border-radius: 34px;
 }
-  
+
 .slider.round:before {
     border-radius: 50%;
 }
 
 
-  /* Responsive */
+/* Responsive */
 
-  @media only screen and (max-width: 720px) {
-    canvas{
+@media only screen and (max-width: 720px) {
+    canvas {
         width: 100vw;
     }
 
-    .container{
+    .container {
         width: 100%;
         height: auto;
     }
 
-    #startButton{
+    #startButton {
         height: 50px;
         width: 100px;
         font-size: 20px;
@@ -355,12 +355,12 @@ input:checked + .slider:before {
         width: 75px;
     }
 
-    #fullscreenButton{
+    #fullscreenButton {
         height: 35px;
         width: 75px;
     }
 
-    #controlButton{
+    #controlButton {
         height: 35px;
         width: 75px;
     }
@@ -370,27 +370,27 @@ input:checked + .slider:before {
         width: 75px;
     }
 
-    #settingsButton img{
+    #settingsButton img {
         width: 28px;
         height: 28px;
     }
 
-   #fullscreenButton img{
+    #fullscreenButton img {
         width: 24px;
         height: 24px;
     }
 
-    .bottomButtonLine{
+    .bottomButtonLine {
         bottom: 0;
     }
 
-    .topButtonLine{
+    .topButtonLine {
         top: 0px;
     }
-  }
+}
 
-  @media only screen and (max-width: 600px){
-    .menu{
+@media only screen and (max-width: 600px) {
+    .menu {
         padding: 8px;
     }
 
@@ -398,44 +398,44 @@ input:checked + .slider:before {
         font-size: 14px;
     }
 
-    #menuButton{
+    #menuButton {
         display: none;
     }
 
-    .closeMenu{
+    .closeMenu {
         margin: 0;
     }
 
-    #hud img{
+    #hud img {
         width: 24px;
         height: 24px;
     }
 
-    #hud button{
+    #hud button {
         width: 35px;
         height: 35px;
     }
-  }
+}
 
-  @media only screen and (max-width: 480px){
-    p{
+@media only screen and (max-width: 480px) {
+    p {
         margin-top: 8px;
         margin-bottom: 8px;
     }
 
-    .gameMenuButtonLine{
+    .gameMenuButtonLine {
         top: -12px;
     }
-  }
+}
 
-  @media only screen and (max-width: 460px){
-    .bottomButtonLine{
+@media only screen and (max-width: 460px) {
+    .bottomButtonLine {
         bottom: -8px;
     }
-  }
+}
 
-  @media only screen and (max-width: 380px){
-    .menu p{
+@media only screen and (max-width: 380px) {
+    .menu p {
         font-size: 12px;
     }
 
@@ -443,10 +443,10 @@ input:checked + .slider:before {
         width: 20px;
         height: 20px;
     }
-  }
+}
 
-  @media only screen and (max-width: 360px){
-    #startButton{
+@media only screen and (max-width: 360px) {
+    #startButton {
         height: 50px;
         width: 100px;
         font-size: 20px;
@@ -457,12 +457,12 @@ input:checked + .slider:before {
         width: 45px;
     }
 
-    #fullscreenButton{
+    #fullscreenButton {
         height: 30px;
         width: 45px;
     }
 
-    #controlButton{
+    #controlButton {
         height: 30px;
         width: 45px;
     }
@@ -472,41 +472,41 @@ input:checked + .slider:before {
         width: 45px;
     }
 
-    #settingsButton img{
+    #settingsButton img {
         width: 24px;
         height: 24px;
     }
 
-   #fullscreenButton img{
+    #fullscreenButton img {
         width: 20px;
         height: 20px;
     }
 
-    #controlButton img{
+    #controlButton img {
         width: 28px;
         height: 28px;
     }
 
-    .bottomButtonLine{
+    .bottomButtonLine {
         bottom: -12px;
     }
 
     .topButtonLine {
         top: -8px;
     }
-  }
+}
 
-  @media only screen and (max-height: 480px) {
-    canvas{
+@media only screen and (max-height: 480px) {
+    canvas {
         height: 100vh;
     }
 
-    .container{
+    .container {
         height: 100vh;
         width: auto;
     }
 
-    .menu{
+    .menu {
         padding: 8px;
     }
 
@@ -518,16 +518,16 @@ input:checked + .slider:before {
         width: 20px;
         height: 20px;
     }
-  }
+}
 
-  @media only screen and (max-height: 450px){
-    .topButtonLine{
+@media only screen and (max-height: 450px) {
+    .topButtonLine {
         top: 0px;
     }
-  }
+}
 
-  @media only screen and (max-height: 400px){
-    #startButton{
+@media only screen and (max-height: 400px) {
+    #startButton {
         height: 50px;
         width: 100px;
         font-size: 20px;
@@ -538,12 +538,12 @@ input:checked + .slider:before {
         width: 75px;
     }
 
-    #fullscreenButton{
+    #fullscreenButton {
         height: 35px;
         width: 75px;
     }
 
-    #controlButton{
+    #controlButton {
         height: 35px;
         width: 75px;
     }
@@ -553,68 +553,64 @@ input:checked + .slider:before {
         width: 75px;
     }
 
-    #settingsButton img{
+    #settingsButton img {
         width: 28px;
         height: 28px;
     }
 
-   #fullscreenButton img{
+    #fullscreenButton img {
         width: 24px;
         height: 24px;
     }
 
-    .bottomButtonLine{
+    .bottomButtonLine {
         bottom: -8px;
     }
-  }
+}
 
-  @media only screen and (max-height: 380px){
-    #menuButton{
+@media only screen and (max-height: 380px) {
+    #menuButton {
         display: none;
     }
 
-    .closeMenu{
+    .closeMenu {
         margin: 0;
     }
 
-    #hud img{
+    #hud img {
         width: 24px;
         height: 24px;
     }
 
-    #hud button{
+    #hud button {
         width: 35px;
         height: 35px;
     }
 
-    .gameMenuButtonLine{
+    .gameMenuButtonLine {
         top: -12px;
     }
-  }
+}
 
-  @media only screen and (max-height: 320px){
-    p{
+@media only screen and (max-height: 320px) {
+    p {
         margin-top: 8px;
         margin-bottom: 8px;
     }
-  }
+}
 
-  @media (pointer: coarse){
-    .controlImageTouch{
+@media (pointer: coarse) {
+    .controlImageTouch {
         display: block;
     }
-  }
+}
 
-  @media not (pointer: coarse){
-    .controlImage{
+@media not (pointer: coarse) {
+    .controlImage {
         display: block;
     }
 
-    .hud{
+    .hud {
         display: none;
     }
-  }
-
-
-
-
+}

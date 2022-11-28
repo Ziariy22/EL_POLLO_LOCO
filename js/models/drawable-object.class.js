@@ -40,7 +40,7 @@ class DrawableObject {
 
 
     /**
-     * draws all canvas elements
+     * draws all canvas elements with a try/catch statement
      * @param {canvas 2d context} ctx 
      */
     draw(ctx) {

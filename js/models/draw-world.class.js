@@ -34,7 +34,7 @@ class DrawWorld {
 
 
     /**
-     * draws the background
+     * draws the background by adding background and clouds
      */
     drawBackground() {
         this.addObjectsToMap(this.level.backgroundObjects);
@@ -43,7 +43,7 @@ class DrawWorld {
 
 
     /**
-     * draws all items
+     * draws all items by adding the collectable items
      */
     drawItems() {
         this.addObjectsToMap(this.level.coins);
@@ -55,7 +55,7 @@ class DrawWorld {
 
 
     /**
-     * draws the characters
+     * draws the character and enemies
      */
     drawGameCharacters() {
         this.addObjectsToMap(this.level.smallEnemies);

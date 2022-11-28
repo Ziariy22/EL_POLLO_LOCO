@@ -93,7 +93,7 @@ class Endboss extends MovableObject {
 
     /**
      * the endboss is only walking if he isn´t dead, attacking or gets hurt
-     * @returns boolean
+     * @returns boolean - if walking is true
      */
     canMove() {
         return this.startWalking &&
@@ -105,7 +105,7 @@ class Endboss extends MovableObject {
 
 
     /**
-     * calls all animations 
+     * calls all animations with a defined number of miliseconds
      */
     setAnimation() {
         this.animationInterval = setInterval(() => this.animation(), 100);

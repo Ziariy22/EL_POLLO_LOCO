@@ -312,7 +312,7 @@ class World extends DrawWorld {
 
 
     /**
-     * checks conditions of collectiing bottles
+     * checks conditions of collecting bottles
      */
     checkCollectBottle() {
         this.level.bottles.forEach((bottle) => {
