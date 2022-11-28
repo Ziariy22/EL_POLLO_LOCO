@@ -23,41 +23,41 @@ function initLevel() {
  */
 function createLevelBabyChickens() {
     return [
-            new BabyChicken(100),
-            new BabyChicken(120),
-            new BabyChicken(130),
-            new BabyChicken(140),
-            new BabyChicken(150),
-            new BabyChicken(160),
-            new BabyChicken(170),
-            new BabyChicken(180),
-            new BabyChicken(200)
+            new BabyChicken(250),
+            new BabyChicken(280),
+            new BabyChicken(300),
+            new BabyChicken(300),
+            new BabyChicken(360),
+            new BabyChicken(800),
+            new BabyChicken(1000),
+            new BabyChicken(1500),
+            new BabyChicken(2000)
     ];
 }
 
 
 /**
  * chickens are generated on the X axis with with a defined distance
- * @returns object
+ * @returns object - chickens with defined distance on x and y axis
  */
 function createLevelNormalChickens() {
     return [
-            new Chicken(200),
-            new Chicken(210),
-            new Chicken(220),
-            new Chicken(230),
-            new Chicken(240),
-            new Chicken(250),
-            new Chicken(260),
-            new Chicken(270),
-            new Chicken(280)
+            new Chicken(300),
+            new Chicken(400),
+            new Chicken(450),
+            new Chicken(500),
+            new Chicken(500),
+            new Chicken(600),
+            new Chicken(700),
+            new Chicken(900),
+            new Chicken(3000)
     ];
 }
 
 
 /**
  * clouds are generated on the X axis with with a defined distance
- * @returns object
+ * @returns object - clouds with defined distance
  */
 function createLevelClouds() {
     return [
@@ -95,8 +95,8 @@ function createLevelClouds() {
 
 
 /**
- * background are generated on the X axis with with a defined distance
- * @returns object
+ * backgrounds are generated on the X axis with with a defined distance
+ * @returns object - backgrounds with defined distance
  */
 function createLevelBackground() {
     return [
@@ -155,7 +155,7 @@ function createLevelBackground() {
 
 /**
  * coins are generated on the X axis with with a defined distance
- * @returns object
+ * @returns object - coins with defined distance on x and y axis
  */
 function createLevelCoins() {
     return [
@@ -182,7 +182,7 @@ function createLevelCoins() {
 
 /**
  * bottles are generated on the X axis with with a defined distance
- * @returns object
+ * @returns object - bottles with defined distance on x and y axis
  */
 function createLevelBottles() {
     return [
@@ -220,7 +220,7 @@ function createLevelBottles() {
 
 /**
  * hearts are generated on the X axis with with a defined distance
- * @returns object
+ * @returns object - hearts with defined distance on x and y axis
  */
 function createLevelHearts() {
     return [
